@@ -4,12 +4,11 @@
    $producto=$_POST['iproducto'];
    $cantidad=$_POST['icantidad'];
    $vunitario=$_POST['ivalorunitario'];
-   $vtotal=$_POST['ivalortotal'];
-   
+   $vtotal=$_POST['ivalortotal'];  
   
   
    
-   $consulta=("SELECT * FROM ventas WHERE codigo='$codigo';");
+   $consulta=("SELECT codigo FROM ventas WHERE codigo='$codigo';");
      
 	 if($validar=@mysql_fetch_array($consulta)){
 		 echo"las ventas ya esta registradas</br>";

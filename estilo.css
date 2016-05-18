@@ -3,7 +3,7 @@
 }
 
 body{
-	background-color: green;
+	background-color: white;
 	font-size:14px;
 }
 
@@ -27,7 +27,7 @@ fieldset legend{
 	font-weight:bold;
 } 
 
-head{
+header{
 	margin:2 auto;
 	width:100%;
 	height:8%;
@@ -38,13 +38,7 @@ head{
 	font-size:1em;
 }
 
-a{
-	font-family:'Comic Sans';
-	font-size:1em;
-	color:#fff;
-	font-weight:bold;
-	text-decoration:none;
-}
+
 
 .contenedor{
 	margin: auto;
@@ -56,13 +50,4 @@ a{
 	border-radius:5px;
 	font-family:'Arial';
 	font-style:oblique;
-}
-
-#mensaje{
-	position:relative;
-	width:25%;
-	height:65%;
-	margin-top:35em;
-	margin: 0 auto;
-	margin-left:2.8em;
 }

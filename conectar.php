@@ -1,0 +1,5 @@
+<?php
+$conexion=mysql_connect("localhost","root","123");
+mysql_select_db("ventasbd",$conexion)or 
+die ('no hay conexion'.mysql_error());
+?>

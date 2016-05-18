@@ -17,6 +17,7 @@ label{
 }
 
 fieldset{
+		background-color:blue;
 	padding-top:2em;
 	margin: 0 auto;
 	width:80%;
@@ -45,7 +46,7 @@ header{
 	margin-top:6%;
 	margin-left:37%;
 	width:26%;
-	background-color:aqua;
+	background-color:yellow;
 	color:#FFFAF0;
 	border-radius:5px;
 	font-family:'Arial';

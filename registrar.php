@@ -9,7 +9,7 @@
   
   
    
-   $consulta=("SELECT codigo FROM ventas WHERE codigo='$codigo';");
+   $consulta=("SELECT * FROM ventas WHERE codigo='$codigo';");
      
 	 if($validar=@mysql_fetch_array($consulta)){
 		 echo"las ventas ya esta registradas</br>";
